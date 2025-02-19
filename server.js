@@ -28,19 +28,19 @@ const server = http.createServer((req, res) => {
             text-align: center;
         }
         .container {
-            max-width: 600px;
+            max-width: 500px;
             padding: 20px;
             background-color: #2d2d2d;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 2.3em;
             margin-bottom: 20px;
             color: #4CAF50;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1.6;
             margin-bottom: 20px;
             text-align: left;
@@ -67,8 +67,7 @@ const server = http.createServer((req, res) => {
 <body>
     <div class="container">
         <h1>Добро пожаловать в мир Node.js!</h1>
-<p>Пришло время раскрыть весь ваш потенциал и выйти на новый уровень
- с JavaScript. </p>
+<p>Пришло время раскрыть весь ваш потенциал и выйти на новый уровень.</p>
  <p><span class="highlight">Node.js</span> даст вам возможность создавать не просто приложения, а настоящие технологические шедевры — быстрые, масштабируемые и революционные. Это ваш шанс стать архитектором будущего, где каждая строчка кода меняет мир.</p>
 <p>А теперь вопрос: готовы ли вы выйти за пределы своих возможностей?
  Установите <span class="highlight">Node.js</span> прямо сейчас и начните создавать то, что изменит вашу жизнь и, возможно, мир вокруг вас. Не ждите идеального момента — он наступит только тогда, когда вы сделаете первый шаг.</p>
